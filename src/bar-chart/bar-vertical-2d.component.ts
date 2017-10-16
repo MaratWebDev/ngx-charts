@@ -25,6 +25,7 @@ import { BaseChartComponent } from '../common/base-chart.component';
   template: `
     <ngx-charts-chart
       [view]="[width, height]"
+// Shouldn't be here [legend]="showLegend"?
       [showLegend]="legend"
       [legendOptions]="legendOptions"
       [activeEntries]="activeEntries"
